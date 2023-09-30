@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="rootNode" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.stockmanage.controller.CustomerFormController">
+   <children>
+      <Label layoutX="192.0" layoutY="31.0" text="Customer Manager" textFill="#ff1500">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <TextField layoutX="91.0" layoutY="109.0" prefHeight="26.0" prefWidth="164.0" promptText="Id" />
+      <TextField layoutX="91.0" layoutY="160.0" prefHeight="26.0" prefWidth="164.0" promptText="Address" />
+      <TextField layoutX="333.0" layoutY="109.0" prefHeight="26.0" prefWidth="164.0" promptText="Name" />
+      <TextField layoutX="333.0" layoutY="160.0" prefHeight="26.0" prefWidth="164.0" promptText="Salary" />
+      <Button layoutX="432.0" layoutY="247.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" style="-fx-background-color: #81ecec;" text="Cancel">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="316.0" layoutY="247.0" mnemonicParsing="false" prefHeight="26.0" prefWidth="82.0" style="-fx-background-color: #81ecec;" text="Save">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="39.0" layoutY="31.0" mnemonicParsing="false" onAction="#btnBackOnAction" prefHeight="26.0" prefWidth="82.0" style="-fx-background-color: #00cec9;" text="Back">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>

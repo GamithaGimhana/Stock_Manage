@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane fx:id="rootNode" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lk.ijse.stockmanage.controller.MainFormController">
+   <children>
+      <Label layoutX="235.0" layoutY="30.0" text="Dash Board" textFill="RED">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button layoutX="105.0" layoutY="119.0" mnemonicParsing="false" onAction="#btnCustomerOnAction" prefHeight="26.0" prefWidth="75.0" style="-fx-background-color: #81ecec;" text="Customer">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="262.0" layoutY="119.0" mnemonicParsing="false" onAction="#btnItemOnAction" prefHeight="26.0" prefWidth="75.0" style="-fx-background-color: #81ecec;" text="Item">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button layoutX="422.0" layoutY="119.0" mnemonicParsing="false" onAction="#btnSupplierOnAction" prefHeight="26.0" prefWidth="75.0" style="-fx-background-color: #81ecec;" text="Supplier">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+   </children>
+</AnchorPane>
